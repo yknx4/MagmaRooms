@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MagmaRooms</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logo">Logo</string>
+    <string name="txt_permissions_granted">Permission Granted</string>
+    <string name="txt_permissions_not_granted">Permision not grander</string>
+    <string name="string_coming_next">Coming up next: %s</string>
+    <string name="txt_late_today">Late today: %s</string>
+    <string name="txt_previous_event">Previous event: %s</string>
+</resources>

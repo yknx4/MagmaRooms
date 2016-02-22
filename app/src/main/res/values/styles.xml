@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/faded_red</item>
+        <item name="colorPrimaryDark">@color/faded_red</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:immersive">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ReyleroRoom" parent="AppTheme">
+        <!--<item name="android:background">@color/faded_red</item>-->
+    </style>
+
+    <style name="txt_claret_medium" parent="txt_claret">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/claret</item>
+    </style>
+    <style name="txt_claret">
+        <item name="android:textColor">@color/claret</item>
+    </style>
+
+    <style name="wine_separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/wine_red</item>
+        <item name="android:layout_marginLeft">150dp</item>
+        <item name="android:layout_marginRight">150dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+</resources>
